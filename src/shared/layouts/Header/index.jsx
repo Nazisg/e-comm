@@ -15,10 +15,10 @@ const Header = () => {
             <img src={profileIcon} alt="profile" />
             <span>My profile</span>
           </div>
-          <div className='relative'>
+          <Link to='/cart' className='relative'>
             <img src={cartIcon} alt="cart" />
             <div className='absolute top-[-7px] right-[-7px] h-5 w-5 rounded-full bg-red flex justify-center items-center text-white text-[10px]'>2</div>
-          </div>
+          </Link>
           <p> Items</p>
           <p className='text-[#262626]'>$0.00</p>
           <img src={searchIcon} alt="search" />
