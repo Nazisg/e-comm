@@ -4,7 +4,7 @@ const Tabs = () => {
     const [activeTab, setActiveTab] = useState("productInfo");
 
     return (
-        <div className="py-10">
+        <div className="py-10 md:block hidden">
             <div className="bg-[#FAFAFB] p-6 rounded-xl">
                 <ul className="flex gap-6 items-center text-lg border-b-2 border-[#E5E8EA]">
                     <li

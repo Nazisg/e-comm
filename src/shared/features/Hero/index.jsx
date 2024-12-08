@@ -29,7 +29,7 @@ const Hero = () => {
   return (
     <div className='md:m-0 m-3'>
       <div className="relative w-full h-[206px] md:h-[653px]">
-        <div className="bg-hero-image w-full h-full bg-cover bg-center md:rounded-none rounded-md"></div>
+        <div className="hero-image w-full h-full bg-cover bg-center md:rounded-none rounded-md"></div>
         <div className="absolute inset-0 bg-hero-gradient md:rounded-none rounded-md"></div>
         <div className="absolute inset-0 flex flex-col justify-center z-10 w-[85%] mx-auto">
           <h1 className="text-[22px] md:text-[40px]  xl:text-[64px] w-[75%] xl:w-[50%] font-bold text-white">Super Flash Sale 50% Off</h1>

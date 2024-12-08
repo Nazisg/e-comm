@@ -23,7 +23,7 @@ const MobileSections = () => {
                 <ProductCard />
             </div>
             <div className="relative w-full h-[206px] my-4">
-                <div className="bg-mobile-image w-full h-full bg-cover bg-center md:rounded-none rounded-md"></div>
+                <div className="mobile-image w-full h-full bg-cover bg-center md:rounded-none rounded-md"></div>
                 <div className="absolute inset-0 bg-hero-gradient md:rounded-none rounded-md"></div>
                 <div className="absolute inset-0 flex flex-col justify-center z-10 w-[85%] mx-auto">
                     <h1 className="text-[22px] w-[75%] font-bold text-white">Recomended Product</h1>

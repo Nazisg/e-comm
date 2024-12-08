@@ -15,7 +15,6 @@ export default {
         'red': '#FB7181',
       },
       backgroundImage: {
-        'hero': 'url("./src/shared/media/imgs/banner.png")',
         'hero-gradient': 'linear-gradient(180deg, #000000 -73.06%, rgba(0, 0, 0, 0) 100%)',
         'hero-image': 'url("./src/shared/media/imgs/banner.png")',
         'mobile-image':'url("./src/shared/media/imgs/mobile-banner.png")'

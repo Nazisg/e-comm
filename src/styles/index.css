@@ -59,6 +59,13 @@ body {
   font-family: proxima-400;
 }
 
+.hero-image{
+background-image: url('../shared/media/imgs/banner.png');
+}
+.mobile-image{
+  background-image: url("../shared/media/imgs/mobile-banner.png");
+}
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;

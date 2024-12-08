@@ -136,7 +136,7 @@ const ProductDeatils = () => {
                 </div>
               </div>
             </div>
-            {/* <Tabs /> */}
+            <Tabs />
           </div>
           <div className='w-[20%] px-2 hidden lg:block'>
             <h4 className='proxima-400 text-lg text-[#C1C8CE] mb-2'>BEST SELLER</h4>
