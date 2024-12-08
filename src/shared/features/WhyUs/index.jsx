@@ -5,7 +5,7 @@ import support from '../../media/icons/support.svg'
 
 const WhyUs = () => {
     return (
-        <div className='py-20 flex items-center justify-around'>
+        <div className='py-20 items-center justify-around hidden md:flex'>
             <div className='flex flex-col gap-3 items-center w-[200px]'>
                 <img src={shipping} alt="shipping" />
                 <div>

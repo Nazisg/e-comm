@@ -4,7 +4,7 @@ import nike from '../../media/icons/nike.svg'
 import figma from '../../media/icons/figma.svg'
 const LatestNews = () => {
     return (
-        <div className='w-[85%] mx-auto'>
+        <div className='w-[85%] mx-auto hidden md:block'>
             <SectionHeader title={"LATEST NEWS"} />
             <div className='flex items-center justify-between py-8'>
                 <div className='flex gap-2 items-center'>

@@ -3,7 +3,7 @@ import bannerIcon from '../../media/imgs/banner-icon.png'
 
 const Banner = () => {
   return (
-    <div className='bg-blue py-6'>
+    <div className='bg-blue py-6 hidden md:block'>
        <div className='w-[85%] mx-auto flex'>
        <div className=' flex flex-col items-start justify-center gap-4'>
             <h2 className='poppins-500 text-[55px] text-white'>Adidas Men Running Sneakers</h2>

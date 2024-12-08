@@ -1,6 +1,7 @@
 import React from 'react'
 import remove from '../../media/icons/x.svg'
 import product from '../../media/imgs/product-sneakers-2.png'
+import Counter from '../Counter'
 
 const CartItem = () => {
     return (
@@ -14,11 +15,7 @@ const CartItem = () => {
             </td>
             <td >$998</td>
             <td>
-                <div className='inline-flex justify-start items-start bg-[#F6F7F8] rounded-md'>
-                    <div className='text-[#33A0FF] py-2 px-3'>+</div>
-                    <div className='py-2 px-3'>2</div>
-                    <div className='text-[#33A0FF] py-2 px-3'>-</div>
-                </div>
+                <Counter />
             </td>
             <td>$499</td>
         </tr>)

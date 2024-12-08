@@ -4,7 +4,7 @@ import FeaturedCard from '../../components/FeaturedCard'
 
 const FeaturedProducts = () => {
     return (
-        <div className='w-[85%] mx-auto py-10'>
+        <div className='w-[85%] mx-auto py-10 hidden md:block'>
             <SectionHeader title={"FEATURED PRODUCTS"} />
             <div className='flex items-center justify-between py-8'>
               <FeaturedCard/>

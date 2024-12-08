@@ -6,17 +6,19 @@ import WhyUs from '../../shared/features/WhyUs'
 import LatestNews from '../../shared/features/LatestNews'
 import FeaturedProducts from '../../shared/features/FeaturedProducts'
 import FooterTop from '../../shared/features/FooterTop'
+import MobileSections from '../../shared/features/MobileSections'
 
 const Home = () => {
   return (
     <>
       <Hero/>
-      <BestSeller/>
+      <BestSeller />
       <Banner/>
       <WhyUs/>
       <LatestNews/>
       <FeaturedProducts/>
       <FooterTop/>
+      <MobileSections/>
     </>
   )
 }
