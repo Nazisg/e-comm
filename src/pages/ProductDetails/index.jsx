@@ -37,7 +37,7 @@ const ProductDeatils = () => {
   return (
     <>
       <Breadcrumbs />
-      <div className='w-[93%] md:w-[85%] mx-auto py-2 md:py-5 lg:py-10 mb-36 md:mt-0'>
+      <div className='w-[93%] md:w-[85%] mx-auto py-2 md:py-5 lg:py-10 mb-36 md:mb-0'>
         <div className='flex items-start gap-6 w-full'>
           <div className='w-full lg:w-[80%]'>
             <div className='flex lg:flex-row flex-col gap-2 md:gap-6'>
